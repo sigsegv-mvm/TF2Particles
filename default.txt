@@ -1,0 +1,127 @@
+<!-- dmx encoding keyvalues2 1 format pcf 1 -->
+"DmeElement"
+{
+	"id" "elementid" "833dbad4-0848-4c77-a49c-5a702a545c55"
+	"name" "string" "untitled"
+	"particleSystemDefinitions" "element_array"
+	[
+		"DmeParticleSystemDefinition"
+		{
+			"id" "elementid" "3535d7f5-7d31-4b97-b772-46fadd300992"
+			"name" "string" "default"
+			"material" "string" "effects\yellowflare.vmt"
+			"children" "element_array" [ ]
+			"color" "color" "255 255 255 255"
+			"operators" "element_array"
+			[
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "a66571b0-1657-41ad-a160-ba5c3b722835"
+					"name" "string" "Alpha Fade and Decay"
+					"functionName" "string" "Alpha Fade and Decay"
+					"operator start fadein" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadeout" "float" "0"
+					"start_alpha" "float" "1"
+					"end_alpha" "float" "0"
+					"start_fade_in_time" "float" "0"
+					"end_fade_in_time" "float" "0.5"
+					"start_fade_out_time" "float" "0.5"
+					"end_fade_out_time" "float" "1"
+				},
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "1ec8a22e-5e14-45fe-9dab-02ffdd5772c8"
+					"name" "string" "Movement Basic"
+					"functionName" "string" "Movement Basic"
+					"operator start fadein" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadeout" "float" "0"
+					"gravity" "vector3" "0 0 0"
+					"drag" "float" "0"
+					"max constraint passes" "int" "3"
+				}
+			]
+			"renderers" "element_array"
+			[
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "e92d1bc3-7c85-41a4-9779-ca71ea83c139"
+					"name" "string" "render_animated_sprites"
+					"functionName" "string" "render_animated_sprites"
+					"operator start fadein" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadeout" "float" "0"
+					"animation rate" "float" "0.1"
+					"animation_fit_lifetime" "bool" "0"
+					"orientation_type" "int" "0"
+				}
+			]
+			"initializers" "element_array"
+			[
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "7415690d-8459-438c-ae78-8ab6c1320095"
+					"name" "string" "Lifetime Random"
+					"functionName" "string" "Lifetime Random"
+					"operator start fadein" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadeout" "float" "0"
+					"lifetime_min" "float" "1"
+					"lifetime_max" "float" "1"
+					"lifetime_random_exponent" "float" "1"
+				},
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "bfe40106-301d-4024-bb24-879162b63418"
+					"name" "string" "Position Within Sphere Random"
+					"functionName" "string" "Position Within Sphere Random"
+					"operator start fadein" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadeout" "float" "0"
+					"distance_min" "float" "0"
+					"distance_max" "float" "0"
+					"control_point_number" "int" "0"
+					"speed_min" "float" "12"
+					"speed_max" "float" "32"
+					"speed_random_exponent" "float" "1"
+					"speed_in_local_coordinate_system_min" "vector3" "0 0 0"
+					"speed_in_local_coordinate_system_max" "vector3" "0 0 0"
+				}
+			]
+			"emitters" "element_array"
+			[
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "9c8b45bf-2644-4c8f-9a37-0873b578aeb7"
+					"name" "string" "emit_continuously"
+					"functionName" "string" "emit_continuously"
+					"operator start fadein" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadeout" "float" "0"
+					"emission_start_time" "float" "0"
+					"emission_rate" "float" "100"
+					"emission_duration" "float" "0"
+				}
+			]
+			"forces" "element_array" [ ]
+			"constraints" "element_array" [ ]
+			"preventNameBasedLookup" "bool" "0"
+			"max_particles" "int" "1000"
+			"initial_particles" "int" "0"
+			"bounding_box_control_point" "int" "0"
+			"bounding_box_min" "vector3" "-10 -10 -10"
+			"bounding_box_max" "vector3" "10 10 10"
+			"radius" "float" "5"
+			"rotation" "float" "0"
+			"rotation_speed" "float" "0"
+			"sequence_number" "int" "0"
+		}
+	]
+}
