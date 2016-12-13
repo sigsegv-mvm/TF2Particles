@@ -16731,21 +16731,6 @@
 				},
 				"DmeParticleOperator"
 				{
-					"id" "elementid" "dc1d792d-2d0f-458f-b81b-01bc5e2c6067"
-					"name" "string" "Color Fade"
-					"functionName" "string" "Color Fade"
-					"operator start fadeout" "float" "0"
-					"operator start fadein" "float" "0"
-					"operator fade oscillate" "float" "0"
-					"operator end fadeout" "float" "0"
-					"operator end fadein" "float" "0"
-					"fade_start_time" "float" "0"
-					"fade_end_time" "float" "0.6"
-					"ease_in_and_out" "bool" "1"
-					"color_fade" "color" "252 179 92 255"
-				},
-				"DmeParticleOperator"
-				{
 					"id" "elementid" "752395d9-3737-4887-bc00-bd69f9f0a43d"
 					"name" "string" "Rotation Yaw Flip Random"
 					"functionName" "string" "Rotation Yaw Flip Random"

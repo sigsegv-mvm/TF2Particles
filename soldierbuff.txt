@@ -2062,8 +2062,8 @@
 					"id" "elementid" "c2aa4cf5-f9cf-4b24-9b02-f15a11b7b07c"
 					"name" "string" "Alpha Random"
 					"functionName" "string" "Alpha Random"
-					"alpha_max" "int" "128"
-					"alpha_min" "int" "128"
+					"alpha_max" "int" "255"
+					"alpha_min" "int" "255"
 					"alpha_random_exponent" "float" "1"
 					"operator end fadein" "float" "0"
 					"operator end fadeout" "float" "0"
@@ -2123,22 +2123,6 @@
 					"operator fade oscillate" "float" "0"
 					"operator start fadein" "float" "0"
 					"operator start fadeout" "float" "0"
-				},
-				"DmeParticleOperator"
-				{
-					"id" "elementid" "6b0e1d81-cd2b-42fe-b27d-686c3a72e97e"
-					"name" "string" "Position Modify Offset Random"
-					"functionName" "string" "Position Modify Offset Random"
-					"offset proportional to radius 0/1" "bool" "0"
-					"offset in local space 0/1" "bool" "0"
-					"offset max" "vector3" "0 0 2"
-					"offset min" "vector3" "0 0 2"
-					"control_point_number" "int" "0"
-					"operator fade oscillate" "float" "0"
-					"operator end fadeout" "float" "0"
-					"operator start fadeout" "float" "0"
-					"operator end fadein" "float" "0"
-					"operator start fadein" "float" "0"
 				}
 			]
 			"emitters" "element_array"
@@ -2149,7 +2133,7 @@
 					"name" "string" "emit_continuously"
 					"functionName" "string" "emit_continuously"
 					"emission_duration" "float" "0"
-					"emission_rate" "float" "16"
+					"emission_rate" "float" "32"
 					"emission_start_time" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator end fadeout" "float" "0.2"
@@ -2187,7 +2171,7 @@
 			"forces" "element_array" [ ]
 			"constraints" "element_array" [ ]
 			"preventNameBasedLookup" "bool" "0"
-			"max_particles" "int" "8"
+			"max_particles" "int" "5"
 			"initial_particles" "int" "0"
 			"material" "string" "effects\sc_softglow.vmt"
 			"bounding_box_min" "vector3" "-10 -10 -10"
@@ -3381,20 +3365,6 @@
 	[
 		"DmeParticleOperator"
 		{
-			"id" "elementid" "bd8d2d2e-8ae8-4624-9981-2b04000f460b"
-			"name" "string" "Movement Basic"
-			"functionName" "string" "Movement Basic"
-			"operator start fadein" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator fade oscillate" "float" "0"
-			"gravity" "vector3" "0 0 0"
-			"drag" "float" "0"
-			"max constraint passes" "int" "3"
-		},
-		"DmeParticleOperator"
-		{
 			"id" "elementid" "9ff0f2fd-f2c7-46df-81a4-22c2b2f127c4"
 			"name" "string" "Lifespan Decay"
 			"functionName" "string" "Lifespan Decay"
@@ -3434,29 +3404,9 @@
 			"start_time" "float" "0"
 			"end_time" "float" "1"
 			"radius_start_scale" "float" "0.1"
-			"radius_end_scale" "float" "1"
+			"radius_end_scale" "float" "0.6"
 			"ease_in_and_out" "bool" "0"
 			"scale_bias" "float" "0.5"
-		},
-		"DmeParticleOperator"
-		{
-			"id" "elementid" "83724639-812f-4d2f-bbb8-b8b89bd47a75"
-			"name" "string" "Movement Lock to Control Point"
-			"functionName" "string" "Movement Lock to Control Point"
-			"lock rotation" "bool" "0"
-			"distance fade range" "float" "0"
-			"end_fadeout_exponent" "float" "1"
-			"end_fadeout_max" "float" "1"
-			"end_fadeout_min" "float" "1"
-			"start_fadeout_exponent" "float" "1"
-			"start_fadeout_max" "float" "1"
-			"start_fadeout_min" "float" "1"
-			"control_point_number" "int" "0"
-			"operator fade oscillate" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadein" "float" "0"
 		},
 		"DmeParticleOperator"
 		{
@@ -3468,6 +3418,26 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadeout" "float" "0"
 			"operator fade oscillate" "float" "0"
+		},
+		"DmeParticleOperator"
+		{
+			"id" "elementid" "443c240b-147f-46e1-904a-d889d6799b1e"
+			"name" "string" "Movement Lock to Control Point"
+			"functionName" "string" "Movement Lock to Control Point"
+			"operator start fadein" "float" "0"
+			"operator end fadein" "float" "0"
+			"operator start fadeout" "float" "0"
+			"operator end fadeout" "float" "0"
+			"operator fade oscillate" "float" "0"
+			"control_point_number" "int" "0"
+			"start_fadeout_min" "float" "1"
+			"start_fadeout_max" "float" "1"
+			"start_fadeout_exponent" "float" "1"
+			"end_fadeout_min" "float" "1"
+			"end_fadeout_max" "float" "1"
+			"end_fadeout_exponent" "float" "1"
+			"distance fade range" "float" "0"
+			"lock rotation" "bool" "0"
 		}
 	]
 	"initializers" "element_array"
@@ -3502,15 +3472,15 @@
 			"operator fade oscillate" "float" "0"
 			"distance_min" "float" "0"
 			"distance_max" "float" "1"
-			"distance_bias" "vector3" "1 1 0"
+			"distance_bias" "vector3" "0 0 0"
 			"distance_bias_absolute_value" "vector3" "0 0 0"
 			"bias in local system" "bool" "0"
 			"control_point_number" "int" "0"
 			"speed_min" "float" "0"
 			"speed_max" "float" "0"
 			"speed_random_exponent" "float" "1"
-			"speed_in_local_coordinate_system_min" "vector3" "0 0 50"
-			"speed_in_local_coordinate_system_max" "vector3" "0 0 40"
+			"speed_in_local_coordinate_system_min" "vector3" "0 0 5"
+			"speed_in_local_coordinate_system_max" "vector3" "0 0 10"
 			"create in model" "int" "0"
 			"randomly distribute to highest supplied Control Point" "bool" "0"
 			"randomly distribution growth time" "float" "0"
@@ -3528,65 +3498,6 @@
 			"lifetime_min" "float" "0.25"
 			"lifetime_max" "float" "0.65"
 			"lifetime_random_exponent" "float" "1"
-		},
-		"DmeParticleOperator"
-		{
-			"id" "elementid" "423dc1a0-6267-4b3f-8e82-da636f2c3191"
-			"name" "string" "Position Modify Offset Random"
-			"functionName" "string" "Position Modify Offset Random"
-			"offset proportional to radius 0/1" "bool" "0"
-			"offset in local space 0/1" "bool" "0"
-			"offset max" "vector3" "0 0 2"
-			"offset min" "vector3" "0 0 2"
-			"control_point_number" "int" "0"
-			"operator fade oscillate" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadein" "float" "0"
-		},
-		"DmeParticleOperator"
-		{
-			"id" "elementid" "fbbecc2b-b9e7-4bb7-a410-66f7b6e96d45"
-			"name" "string" "Rotation Random"
-			"functionName" "string" "Rotation Random"
-			"operator start fadein" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator fade oscillate" "float" "0"
-			"rotation_initial" "float" "0"
-			"rotation_offset_min" "float" "0"
-			"rotation_offset_max" "float" "360"
-			"rotation_random_exponent" "float" "1"
-		},
-		"DmeParticleOperator"
-		{
-			"id" "elementid" "ac4f13de-e101-4cf1-8c34-804b6d6692f8"
-			"name" "string" "Rotation Yaw Flip Random"
-			"functionName" "string" "Rotation Yaw Flip Random"
-			"operator start fadein" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator fade oscillate" "float" "0"
-			"Flip Percentage" "float" "0.5"
-		},
-		"DmeParticleOperator"
-		{
-			"id" "elementid" "5d5fe7b3-29e3-400e-9297-a3e48afaef14"
-			"name" "string" "Rotation Speed Random"
-			"functionName" "string" "Rotation Speed Random"
-			"operator start fadein" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator fade oscillate" "float" "0"
-			"rotation_speed_constant" "float" "0"
-			"rotation_speed_random_min" "float" "30"
-			"rotation_speed_random_max" "float" "60"
-			"rotation_speed_random_exponent" "float" "1"
-			"randomly_flip_direction" "bool" "1"
 		}
 	]
 	"emitters" "element_array"
@@ -3602,35 +3513,19 @@
 			"operator end fadeout" "float" "0.2"
 			"operator fade oscillate" "float" "1"
 			"emission_start_time" "float" "0"
-			"emission_rate" "float" "200"
+			"emission_rate" "float" "20"
 			"emission_duration" "float" "0"
 			"scale emission to used control points" "float" "0"
 			"use parent particles for emission scaling" "bool" "0"
 		}
 	]
 	"children" "element_array" [ ]
-	"forces" "element_array"
-	[
-		"DmeParticleOperator"
-		{
-			"id" "elementid" "2b0dafcd-2c29-48ab-a3f0-5241104306ef"
-			"name" "string" "twist around axis"
-			"functionName" "string" "twist around axis"
-			"object local space axis 0/1" "bool" "0"
-			"twist axis" "vector3" "0 0 1"
-			"amount of force" "float" "-150"
-			"operator fade oscillate" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadein" "float" "0"
-		}
-	]
+	"forces" "element_array" [ ]
 	"constraints" "element_array" [ ]
 	"preventNameBasedLookup" "bool" "0"
 	"max_particles" "int" "64"
 	"initial_particles" "int" "0"
-	"material" "string" "effects\splash_ring1_nearcull.vmt"
+	"material" "string" "effects\circle4_add.vmt"
 	"bounding_box_min" "vector3" "-10 -10 -10"
 	"bounding_box_max" "vector3" "10 10 10"
 	"cull_radius" "float" "0"
@@ -3738,26 +3633,6 @@
 		},
 		"DmeParticleOperator"
 		{
-			"id" "elementid" "e7cef468-3f37-42a5-bdcd-8f9788a84e0d"
-			"name" "string" "Movement Lock to Control Point"
-			"functionName" "string" "Movement Lock to Control Point"
-			"lock rotation" "bool" "0"
-			"start_fadeout_min" "float" "1"
-			"start_fadeout_max" "float" "1"
-			"start_fadeout_exponent" "float" "1"
-			"operator start fadeout" "float" "0"
-			"operator start fadein" "float" "0"
-			"operator fade oscillate" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator end fadein" "float" "0"
-			"end_fadeout_min" "float" "1"
-			"end_fadeout_max" "float" "1"
-			"end_fadeout_exponent" "float" "1"
-			"distance fade range" "float" "0"
-			"control_point_number" "int" "0"
-		},
-		"DmeParticleOperator"
-		{
 			"id" "elementid" "ceafa6b9-f464-44bb-be4a-3e9a5f62953b"
 			"name" "string" "Radius Scale"
 			"functionName" "string" "Radius Scale"
@@ -3797,6 +3672,26 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+		},
+		"DmeParticleOperator"
+		{
+			"id" "elementid" "4fb34dc9-3428-499f-a823-89e70516978b"
+			"name" "string" "Movement Lock to Control Point"
+			"functionName" "string" "Movement Lock to Control Point"
+			"operator start fadein" "float" "0"
+			"operator end fadein" "float" "0"
+			"operator start fadeout" "float" "0"
+			"operator end fadeout" "float" "0"
+			"operator fade oscillate" "float" "0"
+			"control_point_number" "int" "0"
+			"start_fadeout_min" "float" "1"
+			"start_fadeout_max" "float" "1"
+			"start_fadeout_exponent" "float" "1"
+			"end_fadeout_min" "float" "1"
+			"end_fadeout_max" "float" "1"
+			"end_fadeout_exponent" "float" "1"
+			"distance fade range" "float" "0"
+			"lock rotation" "bool" "0"
 		}
 	]
 	"initializers" "element_array"
@@ -3830,8 +3725,8 @@
 			"operator end fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"alpha_random_exponent" "float" "1"
-			"alpha_min" "int" "48"
-			"alpha_max" "int" "48"
+			"alpha_min" "int" "30"
+			"alpha_max" "int" "30"
 		},
 		"DmeParticleOperator"
 		{
@@ -3912,7 +3807,7 @@
 			"operator end fadeout" "float" "0.2"
 			"operator end fadein" "float" "0"
 			"emission_start_time" "float" "0"
-			"emission_rate" "float" "16"
+			"emission_rate" "float" "300"
 			"emission_duration" "float" "0"
 		}
 	]
@@ -3920,7 +3815,7 @@
 	"forces" "element_array" [ ]
 	"constraints" "element_array" [ ]
 	"preventNameBasedLookup" "bool" "0"
-	"max_particles" "int" "3"
+	"max_particles" "int" "6"
 	"initial_particles" "int" "0"
 	"material" "string" "effects\sc_brightglow_y_nomodel.vmt"
 	"bounding_box_min" "vector3" "-10 -10 -10"
@@ -3984,20 +3879,6 @@
 	[
 		"DmeParticleOperator"
 		{
-			"id" "elementid" "5d0b7c09-00f7-4ddd-9992-2bd74172a267"
-			"name" "string" "Movement Basic"
-			"functionName" "string" "Movement Basic"
-			"max constraint passes" "int" "3"
-			"drag" "float" "0"
-			"gravity" "vector3" "0 0 0"
-			"operator fade oscillate" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadein" "float" "0"
-		},
-		"DmeParticleOperator"
-		{
 			"id" "elementid" "27d33f79-d137-41ed-bfab-f47db7adc9b2"
 			"name" "string" "Lifespan Decay"
 			"functionName" "string" "Lifespan Decay"
@@ -4026,12 +3907,26 @@
 		},
 		"DmeParticleOperator"
 		{
+			"id" "elementid" "b6aea3e1-586b-4536-a020-b8352a6fc82e"
+			"name" "string" "Movement Basic"
+			"functionName" "string" "Movement Basic"
+			"operator start fadein" "float" "0"
+			"operator end fadein" "float" "0"
+			"operator start fadeout" "float" "0"
+			"operator end fadeout" "float" "0"
+			"operator fade oscillate" "float" "0"
+			"gravity" "vector3" "0 0 0"
+			"drag" "float" "0"
+			"max constraint passes" "int" "3"
+		},
+		"DmeParticleOperator"
+		{
 			"id" "elementid" "879d49f6-27a5-49b5-8347-4007ca4e1910"
 			"name" "string" "Radius Scale"
 			"functionName" "string" "Radius Scale"
 			"scale_bias" "float" "0.5"
 			"ease_in_and_out" "bool" "0"
-			"radius_end_scale" "float" "1"
+			"radius_end_scale" "float" "0.5"
 			"radius_start_scale" "float" "0.1"
 			"end_time" "float" "1"
 			"start_time" "float" "0"
@@ -4043,7 +3938,7 @@
 		},
 		"DmeParticleOperator"
 		{
-			"id" "elementid" "4e756285-e80c-42af-a28f-88678ee4c8df"
+			"id" "elementid" "4381f660-9277-482c-9598-329480bc6b85"
 			"name" "string" "Movement Lock to Control Point"
 			"functionName" "string" "Movement Lock to Control Point"
 			"operator start fadein" "float" "0"
@@ -4090,15 +3985,15 @@
 			"randomly distribution growth time" "float" "0"
 			"randomly distribute to highest supplied Control Point" "bool" "0"
 			"create in model" "int" "0"
-			"speed_in_local_coordinate_system_max" "vector3" "0 0 50"
-			"speed_in_local_coordinate_system_min" "vector3" "0 0 40"
+			"speed_in_local_coordinate_system_max" "vector3" "0 0 15"
+			"speed_in_local_coordinate_system_min" "vector3" "0 0 15"
 			"speed_random_exponent" "float" "1"
 			"speed_max" "float" "0"
 			"speed_min" "float" "0"
 			"control_point_number" "int" "0"
 			"bias in local system" "bool" "0"
 			"distance_bias_absolute_value" "vector3" "0 0 0"
-			"distance_bias" "vector3" "1 1 0"
+			"distance_bias" "vector3" "0 0 0"
 			"distance_max" "float" "1"
 			"distance_min" "float" "0"
 			"operator fade oscillate" "float" "0"
@@ -4120,22 +4015,6 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
-		},
-		"DmeParticleOperator"
-		{
-			"id" "elementid" "964bffad-880f-4cdb-a66e-d3f1ed2109b7"
-			"name" "string" "Position Modify Offset Random"
-			"functionName" "string" "Position Modify Offset Random"
-			"operator start fadein" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator fade oscillate" "float" "0"
-			"control_point_number" "int" "0"
-			"offset min" "vector3" "0 0 2"
-			"offset max" "vector3" "0 0 2"
-			"offset in local space 0/1" "bool" "0"
-			"offset proportional to radius 0/1" "bool" "0"
 		}
 	]
 	"emitters" "element_array"
@@ -4148,7 +4027,7 @@
 			"use parent particles for emission scaling" "bool" "0"
 			"scale emission to used control points" "float" "0"
 			"emission_duration" "float" "0"
-			"emission_rate" "float" "400"
+			"emission_rate" "float" "200"
 			"emission_start_time" "float" "0"
 			"operator fade oscillate" "float" "1"
 			"operator end fadeout" "float" "0.2"
@@ -4158,28 +4037,12 @@
 		}
 	]
 	"children" "element_array" [ ]
-	"forces" "element_array"
-	[
-		"DmeParticleOperator"
-		{
-			"id" "elementid" "191a38ff-4bcd-4d74-814f-744ab3de6bd3"
-			"name" "string" "twist around axis"
-			"functionName" "string" "twist around axis"
-			"operator start fadein" "float" "0"
-			"operator end fadein" "float" "0"
-			"operator start fadeout" "float" "0"
-			"operator end fadeout" "float" "0"
-			"operator fade oscillate" "float" "0"
-			"amount of force" "float" "-150"
-			"twist axis" "vector3" "0 0 1"
-			"object local space axis 0/1" "bool" "0"
-		}
-	]
+	"forces" "element_array" [ ]
 	"constraints" "element_array" [ ]
 	"preventNameBasedLookup" "bool" "0"
 	"max_particles" "int" "64"
 	"initial_particles" "int" "0"
-	"material" "string" "effects\tp_floorglow.vmt"
+	"material" "string" "effects\circle4.vmt"
 	"bounding_box_min" "vector3" "-10 -10 -10"
 	"bounding_box_max" "vector3" "10 10 10"
 	"cull_radius" "float" "0"
