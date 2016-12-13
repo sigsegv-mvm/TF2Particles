@@ -6520,7 +6520,7 @@
 			"operator fade oscillate" "float" "0"
 			"emission_start_time" "float" "0"
 			"num_to_emit_minimum" "int" "-1"
-			"num_to_emit" "int" "20"
+			"num_to_emit" "int" "10"
 			"maximum emission per frame" "int" "-1"
 			"emission count scale control point" "int" "-1"
 			"emission count scale control point field" "int" "0"

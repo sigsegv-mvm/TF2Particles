@@ -13771,7 +13771,7 @@
 			"use parent particles for emission scaling" "bool" "0"
 			"operator fade oscillate" "float" "0"
 			"emission_duration" "float" "3"
-			"emission_rate" "float" "300"
+			"emission_rate" "float" "150"
 			"emission_start_time" "float" "0"
 			"operator end fadeout" "float" "0"
 			"operator start fadeout" "float" "0"
