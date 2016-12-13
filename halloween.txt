@@ -35,6 +35,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -390,6 +391,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -661,6 +663,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -1245,6 +1248,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -1571,6 +1575,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -1846,6 +1851,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -2161,6 +2167,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -2399,6 +2406,7 @@
 					"Visibility Alpha Scale maximum" "float" "1"
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -2970,6 +2978,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -3248,6 +3257,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -4114,6 +4124,7 @@
 					"operator end fadein" "float" "0"
 					"animation_fit_lifetime" "bool" "0"
 					"animation rate" "float" "0.1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -4424,6 +4435,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -4766,6 +4778,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -5058,6 +5071,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -5352,6 +5366,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -5613,6 +5628,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -6003,6 +6019,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -6247,6 +6264,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -6475,6 +6493,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -6809,6 +6828,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -7104,6 +7124,7 @@
 					"length fade in time" "float" "0"
 					"max length" "float" "100"
 					"min length" "float" "100"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -7336,6 +7357,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -7685,6 +7707,7 @@
 					"length fade in time" "float" "0"
 					"max length" "float" "100"
 					"min length" "float" "2"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -7958,6 +7981,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -8251,6 +8275,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -8544,6 +8569,7 @@
 					"orientation_type" "int" "0"
 					"animation rate" "float" "1"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -8846,6 +8872,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -9136,6 +9163,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -9369,6 +9397,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -9687,6 +9716,7 @@
 					"operator start fadein" "float" "0"
 					"orientation_type" "int" "0"
 					"animation rate" "float" "5"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -10005,6 +10035,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -10237,6 +10268,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -10481,6 +10513,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -10740,6 +10773,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -11030,6 +11064,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -11307,6 +11342,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -11614,6 +11650,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -11902,6 +11939,7 @@
 					"orientation_type" "int" "0"
 					"animation rate" "float" "0.02"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -12191,6 +12229,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -12491,6 +12530,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -12950,6 +12990,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -13433,6 +13474,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -13794,6 +13836,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -14164,6 +14207,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -14435,6 +14479,7 @@
 					"orientation_type" "int" "0"
 					"operator fade oscillate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -14681,6 +14726,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -14904,6 +14950,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -15148,6 +15195,7 @@
 					"length fade in time" "float" "0"
 					"max length" "float" "100"
 					"min length" "float" "75"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -15396,6 +15444,7 @@
 					"animation_fit_lifetime" "bool" "0"
 					"operator fade oscillate" "float" "0"
 					"second sequence animation rate" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -15647,6 +15696,7 @@
 					"operator end fadeout" "float" "0"
 					"operator fade oscillate" "float" "0"
 					"second sequence animation rate" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -15948,6 +15998,7 @@
 					"operator end fadein" "float" "0"
 					"animation_fit_lifetime" "bool" "1"
 					"animation rate" "float" "30"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -16317,6 +16368,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -16600,6 +16652,7 @@
 					"operator end fadein" "float" "0"
 					"animation_fit_lifetime" "bool" "1"
 					"animation rate" "float" "30"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -16939,6 +16992,7 @@
 					"Visibility Alpha Scale maximum" "float" "1"
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -17194,6 +17248,7 @@
 					"operator fade oscillate" "float" "0"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -17455,6 +17510,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -17702,6 +17758,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -17971,6 +18028,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -18888,6 +18946,7 @@
 					"operator end fadein" "float" "0"
 					"animation_fit_lifetime" "bool" "1"
 					"animation rate" "float" "30"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -19125,6 +19184,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -19492,6 +19552,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -19767,6 +19828,7 @@
 					"orientation_type" "int" "0"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -20132,6 +20194,7 @@
 					"Visibility Alpha Scale maximum" "float" "1"
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -20521,6 +20584,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -20845,6 +20909,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -21122,6 +21187,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -21450,6 +21516,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -21725,6 +21792,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -22489,6 +22557,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -22900,6 +22969,7 @@
 					"length fade in time" "float" "0.1"
 					"max length" "float" "2000"
 					"min length" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -23165,6 +23235,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -23415,6 +23486,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -23610,6 +23682,7 @@
 					"operator end fadein" "float" "0"
 					"animation_fit_lifetime" "bool" "0"
 					"animation rate" "float" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -23884,6 +23957,7 @@
 					"length fade in time" "float" "0"
 					"max length" "float" "100"
 					"min length" "float" "100"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -24134,6 +24208,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -24435,6 +24510,7 @@
 					"Visibility Radius Scale minimum" "float" "1"
 					"Visibility Radius Scale maximum" "float" "1"
 					"orientation control point" "int" "-1"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -25059,6 +25135,7 @@
 					"orientation_type" "int" "0"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -25373,6 +25450,7 @@
 					"orientation control point" "int" "-1"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Camera Depth Bias" "float" "0"
 				}
 			]
 			"operators" "element_array"
@@ -26819,6 +26897,231 @@
 			"Sort particles" "bool" "1"
 			"batch particle systems" "bool" "0"
 			"view model effect" "bool" "0"
+		},
+		"DmeParticleSystemDefinition"
+		{
+			"id" "elementid" "747b351c-44cf-458a-805e-764a98462894"
+			"name" "string" "soul_trail"
+			"renderers" "element_array"
+			[
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "03a4c0e5-1417-472d-a681-49b35fc6686f"
+					"name" "string" "render_rope"
+					"functionName" "string" "render_rope"
+					"texture_scroll_rate" "float" "0"
+					"texel_size" "float" "1"
+					"subdivision_count" "int" "0"
+					"operator fade oscillate" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadein" "float" "0"
+				}
+			]
+			"operators" "element_array"
+			[
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "c0f86f6f-4054-4f98-9f8e-a0b8319b1074"
+					"name" "string" "Movement Basic"
+					"functionName" "string" "Movement Basic"
+					"max constraint passes" "int" "3"
+					"drag" "float" "0.7"
+					"gravity" "vector3" "0 0 200"
+					"operator fade oscillate" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadein" "float" "0"
+				},
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "f50f0e79-6f2e-471c-9ad0-25f4e3acbda8"
+					"name" "string" "Radius Scale"
+					"functionName" "string" "Radius Scale"
+					"scale_bias" "float" "0.4"
+					"ease_in_and_out" "bool" "0"
+					"radius_end_scale" "float" "0"
+					"radius_start_scale" "float" "1"
+					"end_time" "float" "1"
+					"start_time" "float" "0"
+					"operator fade oscillate" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadein" "float" "0"
+				},
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "2e7caf8a-b323-44a9-ae48-7fbeb6eb180a"
+					"name" "string" "Alpha Fade and Decay"
+					"functionName" "string" "Alpha Fade and Decay"
+					"end_fade_out_time" "float" "0.4"
+					"start_fade_out_time" "float" "0.6"
+					"end_fade_in_time" "float" "0.2"
+					"start_fade_in_time" "float" "0"
+					"end_alpha" "float" "0"
+					"start_alpha" "float" "0"
+					"operator fade oscillate" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadein" "float" "0"
+				},
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "189a8cfc-15c3-4df0-8849-36b731467ae9"
+					"name" "string" "Color Fade"
+					"functionName" "string" "Color Fade"
+					"ease_in_and_out" "bool" "1"
+					"fade_end_time" "float" "0.5"
+					"fade_start_time" "float" "0"
+					"color_fade" "color" "255 255 255 0"
+					"operator fade oscillate" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadein" "float" "0"
+				}
+			]
+			"initializers" "element_array"
+			[
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "5c94d083-c159-4ce1-83f1-7ef08533ea70"
+					"name" "string" "Position Within Sphere Random"
+					"functionName" "string" "Position Within Sphere Random"
+					"randomly distribution growth time" "float" "0"
+					"randomly distribute to highest supplied Control Point" "bool" "0"
+					"create in model" "int" "0"
+					"speed_in_local_coordinate_system_max" "vector3" "0 0 0"
+					"speed_in_local_coordinate_system_min" "vector3" "0 0 0"
+					"speed_random_exponent" "float" "1"
+					"speed_max" "float" "0"
+					"speed_min" "float" "0"
+					"control_point_number" "int" "0"
+					"bias in local system" "bool" "0"
+					"distance_bias_absolute_value" "vector3" "0 0 0"
+					"distance_bias" "vector3" "1 1 1"
+					"distance_max" "float" "0"
+					"distance_min" "float" "0"
+					"operator fade oscillate" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadein" "float" "0"
+				},
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "59552fcf-066f-4b1a-b774-cde39a540d25"
+					"name" "string" "Color Random"
+					"functionName" "string" "Color Random"
+					"tint update movement threshold" "float" "32"
+					"tint clamp max" "color" "255 255 255 255"
+					"tint clamp min" "color" "0 0 0 0"
+					"tint control point" "int" "0"
+					"tint_perc" "float" "0"
+					"color2" "color" "255 255 255 255"
+					"color1" "color" "255 255 255 255"
+					"operator fade oscillate" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadein" "float" "0"
+				},
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "2d5147e3-8d85-4644-b1ac-7b6e6a51f0ed"
+					"name" "string" "Alpha Random"
+					"functionName" "string" "Alpha Random"
+					"alpha_random_exponent" "float" "1"
+					"alpha_max" "int" "100"
+					"alpha_min" "int" "50"
+					"operator fade oscillate" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadein" "float" "0"
+				},
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "58f65270-06be-4278-80b7-85251aebff7a"
+					"name" "string" "Lifetime Random"
+					"functionName" "string" "Lifetime Random"
+					"operator start fadein" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator fade oscillate" "float" "0"
+					"lifetime_min" "float" "1.1"
+					"lifetime_max" "float" "1"
+					"lifetime_random_exponent" "float" "1"
+				},
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "c2491185-f31a-4642-b4fe-8300b92bf4b9"
+					"name" "string" "Radius Random"
+					"functionName" "string" "Radius Random"
+					"operator start fadein" "float" "0"
+					"operator end fadein" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator fade oscillate" "float" "0"
+					"radius_min" "float" "1"
+					"radius_max" "float" "5"
+					"radius_random_exponent" "float" "1"
+				}
+			]
+			"emitters" "element_array"
+			[
+				"DmeParticleOperator"
+				{
+					"id" "elementid" "6f4920cc-150e-43ec-bb5d-6b4cc325e030"
+					"name" "string" "emit_continuously"
+					"functionName" "string" "emit_continuously"
+					"operator start fadein" "float" "-0.1"
+					"operator end fadein" "float" "0"
+					"operator start fadeout" "float" "0"
+					"operator end fadeout" "float" "0"
+					"operator fade oscillate" "float" "0"
+					"emission_start_time" "float" "0"
+					"emission_rate" "float" "99.9"
+					"emission_duration" "float" "0"
+					"scale emission to used control points" "float" "0"
+					"use parent particles for emission scaling" "bool" "0"
+				}
+			]
+			"children" "element_array" [ ]
+			"forces" "element_array" [ ]
+			"constraints" "element_array" [ ]
+			"preventNameBasedLookup" "bool" "0"
+			"max_particles" "int" "100"
+			"initial_particles" "int" "0"
+			"material" "string" "effects\beam_generic01_add.vmt"
+			"bounding_box_min" "vector3" "-10 -10 -10"
+			"bounding_box_max" "vector3" "10 10 10"
+			"cull_radius" "float" "0"
+			"cull_cost" "float" "1"
+			"cull_control_point" "int" "0"
+			"cull_replacement_definition" "string" ""
+			"radius" "float" "1"
+			"color" "color" "255 255 255 255"
+			"rotation" "float" "0"
+			"rotation_speed" "float" "0"
+			"sequence_number" "int" "0"
+			"sequence_number 1" "int" "0"
+			"group id" "int" "0"
+			"maximum time step" "float" "0.1"
+			"maximum sim tick rate" "float" "0"
+			"minimum sim tick rate" "float" "0"
+			"minimum rendered frames" "int" "0"
+			"control point to disable rendering if it is the camera" "int" "-1"
+			"maximum draw distance" "float" "100000"
+			"time to sleep when not drawn" "float" "8"
+			"Sort particles" "bool" "1"
+			"batch particle systems" "bool" "0"
+			"view model effect" "bool" "0"
 		}
 	]
 }
@@ -26909,6 +27212,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -27196,6 +27500,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -27567,6 +27872,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -27804,6 +28110,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -28116,6 +28423,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -28363,6 +28671,7 @@
 			"animation_fit_lifetime" "bool" "0"
 			"operator fade oscillate" "float" "0"
 			"second sequence animation rate" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -28572,6 +28881,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -28812,6 +29122,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -29076,6 +29387,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -29316,6 +29628,7 @@
 			"operator fade oscillate" "float" "0"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -29575,6 +29888,7 @@
 			"length fade in time" "float" "0"
 			"max length" "float" "2000"
 			"min length" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -29810,6 +30124,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -30092,6 +30407,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -30416,6 +30732,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -30735,6 +31052,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -31054,6 +31372,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -31393,6 +31712,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -31717,6 +32037,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -32017,6 +32338,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -32317,6 +32639,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -32604,6 +32927,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -32860,6 +33184,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -33161,6 +33486,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -33470,6 +33796,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -33743,6 +34070,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -33965,6 +34293,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -34246,6 +34575,7 @@
 			"Visibility Alpha Scale maximum" "float" "1"
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -34841,6 +35171,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -35127,6 +35458,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -35382,6 +35714,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -35604,6 +35937,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -35883,6 +36217,7 @@
 			"operator fade oscillate" "float" "0"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -36103,6 +36438,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -36353,6 +36689,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -36614,6 +36951,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -36874,6 +37212,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -37179,6 +37518,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -37383,6 +37723,7 @@
 			"Visibility Alpha Scale maximum" "float" "1"
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -37618,6 +37959,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -37853,6 +38195,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -38149,6 +38492,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -38389,6 +38733,7 @@
 			"operator end fadein" "float" "0"
 			"animation_fit_lifetime" "bool" "1"
 			"animation rate" "float" "30"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -38676,6 +39021,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -38940,6 +39286,7 @@
 			"animation_fit_lifetime" "bool" "1"
 			"operator fade oscillate" "float" "0"
 			"second sequence animation rate" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -39175,6 +39522,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -39457,6 +39805,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -39739,6 +40088,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -40031,6 +40381,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -40240,6 +40591,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -40473,6 +40825,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -40724,6 +41077,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -41394,6 +41748,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -41631,6 +41986,7 @@
 			"length fade in time" "float" "0"
 			"max length" "float" "2000"
 			"min length" "float" "20"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -41920,6 +42276,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -42147,6 +42504,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -42374,6 +42732,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -43078,6 +43437,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -43317,6 +43677,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -43542,6 +43903,7 @@
 			"length fade in time" "float" "0"
 			"max length" "float" "2000"
 			"min length" "float" "20"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -43831,6 +44193,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -44058,6 +44421,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -44285,6 +44649,7 @@
 			"operator end fadein" "float" "0"
 			"animation_fit_lifetime" "bool" "1"
 			"animation rate" "float" "30"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -44574,6 +44939,7 @@
 			"operator end fadein" "float" "0"
 			"animation_fit_lifetime" "bool" "1"
 			"animation rate" "float" "30"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -44883,6 +45249,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -45092,6 +45459,7 @@
 			"operator end fadein" "float" "0"
 			"animation_fit_lifetime" "bool" "1"
 			"animation rate" "float" "30"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -45702,6 +46070,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -45924,6 +46293,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -46164,6 +46534,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -46385,6 +46756,7 @@
 			"length fade in time" "float" "0"
 			"max length" "float" "100"
 			"min length" "float" "2"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -46636,6 +47008,7 @@
 			"operator fade oscillate" "float" "0"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -46895,6 +47268,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -47126,6 +47500,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -47370,6 +47745,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -47664,6 +48040,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -47960,6 +48337,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -48256,6 +48634,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -48543,6 +48922,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -48861,6 +49241,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -49157,6 +49538,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -49453,6 +49835,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -49727,6 +50110,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -49988,6 +50372,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -50210,6 +50595,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -50781,6 +51167,7 @@
 			"length fade in time" "float" "0"
 			"max length" "float" "100"
 			"min length" "float" "75"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -51010,6 +51397,7 @@
 			"length fade in time" "float" "0"
 			"max length" "float" "100"
 			"min length" "float" "2"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -51274,6 +51662,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -51518,6 +51907,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -51847,6 +52237,7 @@
 			"operator end fadein" "float" "0"
 			"animation_fit_lifetime" "bool" "1"
 			"animation rate" "float" "1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -52161,6 +52552,7 @@
 			"operator end fadein" "float" "0"
 			"animation_fit_lifetime" "bool" "0"
 			"animation rate" "float" "0.1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -52565,6 +52957,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -52832,6 +53225,7 @@
 			"animation_fit_lifetime" "bool" "0"
 			"operator fade oscillate" "float" "0"
 			"second sequence animation rate" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -53119,6 +53513,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -53429,6 +53824,7 @@
 			"operator end fadein" "float" "0"
 			"animation_fit_lifetime" "bool" "0"
 			"animation rate" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -53706,6 +54102,7 @@
 			"operator end fadein" "float" "0"
 			"animation_fit_lifetime" "bool" "1"
 			"animation rate" "float" "30"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -53982,6 +54379,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -54226,6 +54624,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -54503,6 +54902,7 @@
 			"orientation_type" "int" "0"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -54819,6 +55219,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -55079,6 +55480,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -55356,6 +55758,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -55619,6 +56022,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -55896,6 +56300,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -56163,6 +56568,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -56439,6 +56845,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -56715,6 +57122,7 @@
 			"operator end fadein" "float" "0"
 			"animation_fit_lifetime" "bool" "1"
 			"animation rate" "float" "30"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -56996,6 +57404,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -57259,6 +57668,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -57536,6 +57946,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -57813,6 +58224,7 @@
 			"orientation control point" "int" "-1"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -58057,6 +58469,7 @@
 			"Visibility Radius Scale minimum" "float" "1"
 			"Visibility Radius Scale maximum" "float" "1"
 			"orientation control point" "int" "-1"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"
@@ -58308,6 +58721,7 @@
 			"animation_fit_lifetime" "bool" "0"
 			"operator fade oscillate" "float" "0"
 			"second sequence animation rate" "float" "0"
+			"Visibility Camera Depth Bias" "float" "0"
 		}
 	]
 	"operators" "element_array"

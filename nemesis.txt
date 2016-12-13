@@ -26,6 +26,16 @@
 					"operator start fadein" "float" "0"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Proxy Input Control Point Number" "int" "-1"
+					"Visibility Proxy Radius" "float" "1"
+					"Visibility input minimum" "float" "0"
+					"Visibility input maximum" "float" "1"
+					"Visibility Alpha Scale minimum" "float" "0"
+					"Visibility Alpha Scale maximum" "float" "1"
+					"Visibility Radius Scale minimum" "float" "1"
+					"Visibility Radius Scale maximum" "float" "1"
+					"Visibility Camera Depth Bias" "float" "0"
+					"orientation control point" "int" "-1"
 				}
 			]
 			"operators" "element_array"
@@ -94,6 +104,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"lock rotation" "bool" "0"
 				},
 				"DmeParticleOperator"
 				{
@@ -169,22 +180,6 @@
 				},
 				"DmeParticleOperator"
 				{
-					"id" "elementid" "cf7c4816-c4ba-427e-92c9-8ecf3695a3df"
-					"name" "string" "Position Modify Offset Random"
-					"functionName" "string" "Position Modify Offset Random"
-					"offset proportional to radius 0/1" "bool" "0"
-					"offset in local space 0/1" "bool" "1"
-					"offset max" "vector3" "0 0 18"
-					"offset min" "vector3" "0 0 18"
-					"control_point_number" "int" "0"
-					"operator fade oscillate" "float" "0"
-					"operator end fadeout" "float" "0"
-					"operator start fadeout" "float" "0"
-					"operator end fadein" "float" "0"
-					"operator start fadein" "float" "0"
-				},
-				"DmeParticleOperator"
-				{
 					"id" "elementid" "07e3f84b-e98e-4025-93e1-9ed9a38f49d8"
 					"name" "string" "Color Random"
 					"functionName" "string" "Color Random"
@@ -196,6 +191,10 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"tint control point" "int" "0"
+					"tint clamp min" "color" "0 0 0 0"
+					"tint clamp max" "color" "255 255 255 255"
+					"tint update movement threshold" "float" "32"
 				}
 			]
 			"emitters" "element_array"
@@ -213,6 +212,9 @@
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
 					"maximum emission per frame" "int" "100"
+					"num_to_emit_minimum" "int" "-1"
+					"emission count scale control point" "int" "-1"
+					"emission count scale control point field" "int" "0"
 				}
 			]
 			"children" "element_array"
@@ -231,9 +233,12 @@
 			"max_particles" "int" "2"
 			"initial_particles" "int" "0"
 			"material" "string" "effects\particle_nemesis_blue.vmt"
-			"bounding_box_control_point" "int" "0"
 			"bounding_box_min" "vector3" "-10 -10 -10"
 			"bounding_box_max" "vector3" "10 10 10"
+			"cull_radius" "float" "0"
+			"cull_cost" "float" "1"
+			"cull_control_point" "int" "0"
+			"cull_replacement_definition" "string" ""
 			"radius" "float" "5"
 			"color" "color" "255 255 255 255"
 			"rotation" "float" "0"
@@ -248,6 +253,9 @@
 			"control point to disable rendering if it is the camera" "int" "-1"
 			"maximum draw distance" "float" "100000"
 			"time to sleep when not drawn" "float" "8"
+			"Sort particles" "bool" "1"
+			"batch particle systems" "bool" "0"
+			"view model effect" "bool" "0"
 		},
 		"element" "1b7d1a7c-4638-418f-9c22-738c8332f4fb",
 		"DmeParticleSystemDefinition"
@@ -271,6 +279,16 @@
 					"operator start fadein" "float" "0"
 					"second sequence animation rate" "float" "0"
 					"use animation rate as FPS" "bool" "0"
+					"Visibility Proxy Input Control Point Number" "int" "-1"
+					"Visibility Proxy Radius" "float" "1"
+					"Visibility input minimum" "float" "0"
+					"Visibility input maximum" "float" "1"
+					"Visibility Alpha Scale minimum" "float" "0"
+					"Visibility Alpha Scale maximum" "float" "1"
+					"Visibility Radius Scale minimum" "float" "1"
+					"Visibility Radius Scale maximum" "float" "1"
+					"Visibility Camera Depth Bias" "float" "0"
+					"orientation control point" "int" "-1"
 				}
 			]
 			"operators" "element_array"
@@ -339,6 +357,7 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"lock rotation" "bool" "0"
 				},
 				"DmeParticleOperator"
 				{
@@ -414,22 +433,6 @@
 				},
 				"DmeParticleOperator"
 				{
-					"id" "elementid" "2a632719-beca-4011-836b-a69077024732"
-					"name" "string" "Position Modify Offset Random"
-					"functionName" "string" "Position Modify Offset Random"
-					"offset proportional to radius 0/1" "bool" "0"
-					"offset in local space 0/1" "bool" "1"
-					"offset max" "vector3" "0 0 18"
-					"offset min" "vector3" "0 0 18"
-					"control_point_number" "int" "0"
-					"operator fade oscillate" "float" "0"
-					"operator end fadeout" "float" "0"
-					"operator start fadeout" "float" "0"
-					"operator end fadein" "float" "0"
-					"operator start fadein" "float" "0"
-				},
-				"DmeParticleOperator"
-				{
 					"id" "elementid" "5cf39c03-59b5-446f-ab6f-d0882e02ba9f"
 					"name" "string" "Color Random"
 					"functionName" "string" "Color Random"
@@ -441,6 +444,10 @@
 					"operator start fadeout" "float" "0"
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
+					"tint control point" "int" "0"
+					"tint clamp min" "color" "0 0 0 0"
+					"tint clamp max" "color" "255 255 255 255"
+					"tint update movement threshold" "float" "32"
 				}
 			]
 			"emitters" "element_array"
@@ -458,6 +465,9 @@
 					"operator end fadein" "float" "0"
 					"operator start fadein" "float" "0"
 					"maximum emission per frame" "int" "100"
+					"num_to_emit_minimum" "int" "-1"
+					"emission count scale control point" "int" "-1"
+					"emission count scale control point field" "int" "0"
 				}
 			]
 			"children" "element_array"
@@ -476,9 +486,12 @@
 			"max_particles" "int" "2"
 			"initial_particles" "int" "0"
 			"material" "string" "effects\particle_nemesis_red.vmt"
-			"bounding_box_control_point" "int" "0"
 			"bounding_box_min" "vector3" "-10 -10 -10"
 			"bounding_box_max" "vector3" "10 10 10"
+			"cull_radius" "float" "0"
+			"cull_cost" "float" "1"
+			"cull_control_point" "int" "0"
+			"cull_replacement_definition" "string" ""
 			"radius" "float" "5"
 			"color" "color" "255 255 255 255"
 			"rotation" "float" "0"
@@ -493,6 +506,9 @@
 			"control point to disable rendering if it is the camera" "int" "-1"
 			"maximum draw distance" "float" "100000"
 			"time to sleep when not drawn" "float" "8"
+			"Sort particles" "bool" "1"
+			"batch particle systems" "bool" "0"
+			"view model effect" "bool" "0"
 		},
 		"element" "c3d263cf-7cc7-41a2-9f80-e05b1ddfa070"
 	]
@@ -519,6 +535,16 @@
 			"operator start fadein" "float" "0"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Proxy Input Control Point Number" "int" "-1"
+			"Visibility Proxy Radius" "float" "1"
+			"Visibility input minimum" "float" "0"
+			"Visibility input maximum" "float" "1"
+			"Visibility Alpha Scale minimum" "float" "0"
+			"Visibility Alpha Scale maximum" "float" "1"
+			"Visibility Radius Scale minimum" "float" "1"
+			"Visibility Radius Scale maximum" "float" "1"
+			"Visibility Camera Depth Bias" "float" "0"
+			"orientation control point" "int" "-1"
 		}
 	]
 	"operators" "element_array"
@@ -604,6 +630,7 @@
 			"end_fadeout_max" "float" "1"
 			"end_fadeout_exponent" "float" "1"
 			"distance fade range" "float" "0"
+			"lock rotation" "bool" "0"
 		}
 	]
 	"initializers" "element_array"
@@ -660,6 +687,10 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"tint control point" "int" "0"
+			"tint clamp min" "color" "0 0 0 0"
+			"tint clamp max" "color" "255 255 255 255"
+			"tint update movement threshold" "float" "32"
 		},
 		"DmeParticleOperator"
 		{
@@ -692,6 +723,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"use parent particles for emission scaling" "bool" "0"
 		}
 	]
 	"children" "element_array" [ ]
@@ -701,9 +733,12 @@
 	"max_particles" "int" "4"
 	"initial_particles" "int" "0"
 	"material" "string" "effects\particle_nemesis_burst.vmt"
-	"bounding_box_control_point" "int" "0"
 	"bounding_box_min" "vector3" "-10 -10 -10"
 	"bounding_box_max" "vector3" "10 10 10"
+	"cull_radius" "float" "0"
+	"cull_cost" "float" "1"
+	"cull_control_point" "int" "0"
+	"cull_replacement_definition" "string" ""
 	"radius" "float" "5"
 	"color" "color" "255 255 255 255"
 	"rotation" "float" "0"
@@ -718,6 +753,9 @@
 	"control point to disable rendering if it is the camera" "int" "-1"
 	"maximum draw distance" "float" "100000"
 	"time to sleep when not drawn" "float" "8"
+	"Sort particles" "bool" "1"
+	"batch particle systems" "bool" "0"
+	"view model effect" "bool" "0"
 }
 
 "DmeParticleSystemDefinition"
@@ -741,6 +779,16 @@
 			"operator start fadein" "float" "0"
 			"second sequence animation rate" "float" "0"
 			"use animation rate as FPS" "bool" "0"
+			"Visibility Proxy Input Control Point Number" "int" "-1"
+			"Visibility Proxy Radius" "float" "1"
+			"Visibility input minimum" "float" "0"
+			"Visibility input maximum" "float" "1"
+			"Visibility Alpha Scale minimum" "float" "0"
+			"Visibility Alpha Scale maximum" "float" "1"
+			"Visibility Radius Scale minimum" "float" "1"
+			"Visibility Radius Scale maximum" "float" "1"
+			"Visibility Camera Depth Bias" "float" "0"
+			"orientation control point" "int" "-1"
 		}
 	]
 	"operators" "element_array"
@@ -826,6 +874,7 @@
 			"end_fadeout_max" "float" "1"
 			"end_fadeout_exponent" "float" "1"
 			"distance fade range" "float" "0"
+			"lock rotation" "bool" "0"
 		}
 	]
 	"initializers" "element_array"
@@ -882,6 +931,10 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"tint control point" "int" "0"
+			"tint clamp min" "color" "0 0 0 0"
+			"tint clamp max" "color" "255 255 255 255"
+			"tint update movement threshold" "float" "32"
 		},
 		"DmeParticleOperator"
 		{
@@ -914,6 +967,7 @@
 			"operator start fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"operator start fadein" "float" "0"
+			"use parent particles for emission scaling" "bool" "0"
 		}
 	]
 	"children" "element_array" [ ]
@@ -923,9 +977,12 @@
 	"max_particles" "int" "4"
 	"initial_particles" "int" "0"
 	"material" "string" "effects\particle_nemesis_burst.vmt"
-	"bounding_box_control_point" "int" "0"
 	"bounding_box_min" "vector3" "-10 -10 -10"
 	"bounding_box_max" "vector3" "10 10 10"
+	"cull_radius" "float" "0"
+	"cull_cost" "float" "1"
+	"cull_control_point" "int" "0"
+	"cull_replacement_definition" "string" ""
 	"radius" "float" "5"
 	"color" "color" "255 255 255 255"
 	"rotation" "float" "0"
@@ -940,4 +997,7 @@
 	"control point to disable rendering if it is the camera" "int" "-1"
 	"maximum draw distance" "float" "100000"
 	"time to sleep when not drawn" "float" "8"
+	"Sort particles" "bool" "1"
+	"batch particle systems" "bool" "0"
+	"view model effect" "bool" "0"
 }
