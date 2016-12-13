@@ -1096,7 +1096,7 @@
 					"amount of slide" "float" "0"
 					"radius scale" "float" "1"
 					"brush only" "bool" "0"
-					"collision group" "string" "DEBRIS"
+					"collision group" "string" "ROCKETS"
 					"collision mode" "int" "2"
 					"control point offset for fast collisions" "vector3" "0 0 0"
 					"control point movement distance tolerance" "float" "5"
@@ -1832,8 +1832,8 @@
 			"functionName" "string" "Position Modify Offset Random"
 			"control_point_number" "int" "0"
 			"offset in local space 0/1" "bool" "0"
-			"offset max" "vector3" "0 0 1"
-			"offset min" "vector3" "0 0 1"
+			"offset max" "vector3" "0 0 10"
+			"offset min" "vector3" "0 0 10"
 			"offset proportional to radius 0/1" "bool" "0"
 			"operator end fadein" "float" "0"
 			"operator end fadeout" "float" "0"
@@ -1897,10 +1897,10 @@
 	[
 		"DmeParticleOperator"
 		{
-			"id" "elementid" "605b0675-dcf2-48b7-92fd-184e8d90b814"
+			"id" "elementid" "442dc325-b1cd-4a1c-b242-2b03b433c24c"
 			"name" "string" "Collision via traces"
 			"functionName" "string" "Collision via traces"
-			"amount of bounce" "float" "0"
+			"amount of bounce" "float" "2"
 			"amount of slide" "float" "0"
 			"collision group" "string" "DEBRIS"
 			"operator end fadein" "float" "0"
@@ -1908,12 +1908,12 @@
 			"operator fade oscillate" "float" "0"
 			"operator start fadein" "float" "0"
 			"operator start fadeout" "float" "0"
-			"radius scale" "float" "1"
+			"radius scale" "float" "2"
 			"brush only" "bool" "0"
-			"collision mode" "int" "2"
+			"collision mode" "int" "1"
 			"control point offset for fast collisions" "vector3" "0 0 0"
 			"control point movement distance tolerance" "float" "5"
-			"kill particle on collision" "bool" "0"
+			"kill particle on collision" "bool" "1"
 			"trace accuracy tolerance" "float" "24"
 		}
 	]
@@ -2262,7 +2262,7 @@
 			"operator end fadein" "float" "0"
 			"max constraint passes" "int" "3"
 			"gravity" "vector3" "0 0 -150"
-			"drag" "float" "0.08"
+			"drag" "float" "0"
 		},
 		"DmeParticleOperator"
 		{
@@ -2384,8 +2384,8 @@
 			"operator end fadeout" "float" "0"
 			"operator end fadein" "float" "0"
 			"offset proportional to radius 0/1" "bool" "0"
-			"offset min" "vector3" "0 0 1"
-			"offset max" "vector3" "0 0 1"
+			"offset min" "vector3" "0 0 10"
+			"offset max" "vector3" "0 0 10"
 			"offset in local space 0/1" "bool" "0"
 			"control_point_number" "int" "0"
 		},
@@ -2429,7 +2429,7 @@
 	[
 		"DmeParticleOperator"
 		{
-			"id" "elementid" "bd2dfed3-b981-4463-90b1-cefbe813a187"
+			"id" "elementid" "5d769f3d-b0c9-43b1-8fad-64f3654744de"
 			"name" "string" "random force"
 			"functionName" "string" "random force"
 			"operator start fadeout" "float" "0"
@@ -2445,12 +2445,16 @@
 	[
 		"DmeParticleOperator"
 		{
-			"id" "elementid" "a7670009-1d8b-43a7-b1d6-57f0b16f4d72"
+			"id" "elementid" "c07b7cfa-ad60-4525-b0dc-168c619da8f3"
 			"name" "string" "Collision via traces"
 			"functionName" "string" "Collision via traces"
-			"collision mode" "int" "2"
+			"trace accuracy tolerance" "float" "24"
+			"kill particle on collision" "bool" "1"
+			"control point movement distance tolerance" "float" "5"
+			"control point offset for fast collisions" "vector3" "0 0 0"
+			"collision mode" "int" "1"
 			"brush only" "bool" "0"
-			"radius scale" "float" "1"
+			"radius scale" "float" "2"
 			"operator start fadeout" "float" "0"
 			"operator start fadein" "float" "0"
 			"operator fade oscillate" "float" "0"
@@ -2458,11 +2462,7 @@
 			"operator end fadein" "float" "0"
 			"collision group" "string" "DEBRIS"
 			"amount of slide" "float" "0"
-			"amount of bounce" "float" "0"
-			"control point offset for fast collisions" "vector3" "0 0 0"
-			"control point movement distance tolerance" "float" "5"
-			"kill particle on collision" "bool" "0"
-			"trace accuracy tolerance" "float" "24"
+			"amount of bounce" "float" "2"
 		}
 	]
 	"preventNameBasedLookup" "bool" "0"
