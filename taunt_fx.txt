@@ -34566,7 +34566,7 @@
 	"preventNameBasedLookup" "bool" "0"
 	"max_particles" "int" "50"
 	"initial_particles" "int" "0"
-	"material" "string" "effects\particle_glow_05_nodepth.vmt"
+	"material" "string" "effects\particle_glow_05.vmt"
 	"bounding_box_min" "vector3" "-10 -10 -10"
 	"bounding_box_max" "vector3" "10 10 10"
 	"cull_radius" "float" "0"
