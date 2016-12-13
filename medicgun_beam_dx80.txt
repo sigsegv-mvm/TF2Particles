@@ -2177,6 +2177,13 @@
 				},
 				"DmeParticleChild"
 				{
+					"id" "elementid" "fdd5f656-af76-43e4-8212-1cc7c63f8638"
+					"name" "string" "medicgun_beam_blue_trail_stage3"
+					"child" "element" "3a3bc622-3494-4184-9a61-9f3e6fec8632"
+					"delay" "float" "0"
+				},
+				"DmeParticleChild"
+				{
 					"id" "elementid" "82615fd5-214d-411f-97a4-d5d75b622e79"
 					"name" "string" "medicgun_beam_blue_drips"
 					"child" "element" "c3f446dc-18a4-4741-907a-2b903a81ad60"
@@ -2263,6 +2270,13 @@
 					"id" "elementid" "873e7f4b-a725-47ea-8e17-412c3523e2f1"
 					"name" "string" "medicgun_beam_red_trail_stage2"
 					"child" "element" "b1e80a8b-208b-4d69-bead-bca769992df2"
+					"delay" "float" "0"
+				},
+				"DmeParticleChild"
+				{
+					"id" "elementid" "457c70ed-052b-430f-a7ac-dd1ed135a29d"
+					"name" "string" "medicgun_beam_red_trail_stage3"
+					"child" "element" "874088f7-8da9-4f3b-8da6-655b573306a1"
 					"delay" "float" "0"
 				},
 				"DmeParticleChild"
